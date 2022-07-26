@@ -1,9 +1,14 @@
 body {
     max-width: 1080px;
     margin: auto;
-    background: #f5fcfe;
+    background: #090635;
     /* font-style: normal; */
     font-family: sans-serif; 
+}
+
+header {
+    background: gold;
+    margin: 20px;
 }
 
 header h1 {
@@ -14,7 +19,7 @@ header h1 {
 .info,
 .card-2 {
 	/*border: solid 1px; */
-    background-color: #ea987c;
+    background-color: gold;
     margin: 20px; 
     padding: 15px
 }
@@ -63,4 +68,26 @@ header h1 {
 .contact {
 	display: inline-block;
 	width: 24%;
+	text-align: center;
+}
+
+.contact p {
+	margin: 3px;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+}
+
+thead {
+	font-weight: bold;
+}
+
+thead tr {
+	background: lightseagreen;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: lemonchiffon;
 }
