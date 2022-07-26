@@ -20,8 +20,8 @@ header h1 {
 .card-2 {
 	/*border: solid 1px; */
     background-color: gold;
-    margin: 20px; 
-    padding: 15px
+    margin: 20px;
+    padding: 15px;
 }
 
 .info {
@@ -63,6 +63,14 @@ header h1 {
 
 .card-2:last-child {
 	margin: 0 0 0;
+}
+
+@media (max-width: 800px) {
+	.card-2 {
+		width: auto;
+		display: inherit;
+		margin: 20px;
+	}
 }
 
 .contact {
